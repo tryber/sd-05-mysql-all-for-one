@@ -1,0 +1,1 @@
+SELECT `id`, `product_code` FROM `products`;
