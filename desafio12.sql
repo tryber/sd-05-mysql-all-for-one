@@ -1,0 +1,1 @@
+SELECT submitted_date from purchase_orders WHERE date(submitted_date) = '2006-04-26';
