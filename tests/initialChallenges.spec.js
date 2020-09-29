@@ -33,7 +33,7 @@ describe('Desafios iniciais', () => {
     });
   });
 
-  describe('Exiba os dados de todas as colunas da tabela `products`', () => {
+  describe.only('Exiba os dados de todas as colunas da tabela `products`', () => {
     it('Verifica o desafio2', async () => {
       const challengeQuery = readFileSync('desafio2.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult2');
