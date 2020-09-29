@@ -24,7 +24,7 @@ describe('Desafios sobre filtragem de dados', () => {
     sequelize.close();
   });
 
-  describe('Mostre todos os valores de `notes` da tabela `purchase_orders` que não são nulos', () => {
+  describe.only('Mostre todos os valores de `notes` da tabela `purchase_orders` que não são nulos', () => {
     it('Verifica o desafio9', async () => {
       const challengeQuery = readFileSync('desafio9.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult9');
