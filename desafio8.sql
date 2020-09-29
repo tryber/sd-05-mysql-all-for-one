@@ -8,4 +8,4 @@ PRIMARY KEY (`id`));
 INSERT INTO Trybe (A, Trybe, eh)
 VALUES ( 5 + 6 , 'de', 2 + 8);
 
-SELECT * FROM Trybe;
+SELECT A, Trybe, eh FROM Trybe;
