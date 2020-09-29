@@ -1,3 +1,3 @@
 SELECT id FROM northwind.products
-ORDER BY id
-LIMIT 5 offset 40;
+where id > 94
+ORDER BY ID DESC;
