@@ -10,5 +10,5 @@ INSERT INTO `order_details` (
 `inventory_id`
 )
 VALUE
-(69, 80, 15000, 15000, 0, 2, NULL, NULL, 129),
-(69, 80, 15000, 15000, 0, 2, NULL, NULL, 129);
+(69, 80, 15.0000, 15.0000, 0, 2, NULL, NULL, 129),
+(69, 80, 15.0000, 15.0000, 0, 2, NULL, NULL, 129);
