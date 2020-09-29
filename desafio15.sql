@@ -1,1 +1,1 @@
-SELECT DATE_FORMAT(`submitted_date`, '%H') AS `submitted_hour` FROM northwind.purchase_orders;
+SELECT DATE_FORMAT(`submitted_date`, '%h') AS `submitted_hour` FROM northwind.purchase_orders;
