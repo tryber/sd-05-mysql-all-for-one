@@ -5,4 +5,4 @@ SELECT notes FROM northwind.purchase_orders WHERE notes IS NOT NULL;
 
 
 -- (Honestidade acadêmica).
--- depois de consultar PR dos amigos (Elipe Vieira) puder constatar um erro de imterpretacao do desafio por minha parte.
+-- depois de consultar PR dos amigos (Felipe Vieira) puder constatar um erro de imterpretacao do desafio por minha parte.
