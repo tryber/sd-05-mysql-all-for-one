@@ -88,7 +88,7 @@ describe('Desafios de manipulação de tabelas', () => {
     const countOrderDetailsByDiscountQuery = (discount) =>
       `SELECT COUNT(*) AS details_count FROM order_details WHERE discount = ${discount};`;
 
-    describe('Atualize os dados de `discount` do `order_details` para 15', () => {
+    describe.only('Atualize os dados de `discount` do `order_details` para 15', () => {
       it('Verifica o desafio22', async () => {
         const challengeQuery = readFileSync('desafio22.sql', 'utf8').trim();
 
