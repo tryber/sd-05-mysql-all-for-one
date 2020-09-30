@@ -1,5 +1,5 @@
 -- desabilitando a segurança do BD para atualizar os dados de discount do order_details para 15.
-SET SQL_SAFE_UPDATES = 0;
+-- SET SQL_SAFE_UPDATES = 0;
 
 -- Atualize os dados de discount da tabela order_details para 45 cuja unit_price seja maior que 10.0000 
 -- e o id seja um número entre 30 a 40.
