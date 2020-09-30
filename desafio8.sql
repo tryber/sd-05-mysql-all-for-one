@@ -3,4 +3,4 @@
 -- A primeira coluna deve se chamar "A", a segunda coluna deve se chamar "Trybe" e a terceira coluna deve se chamar "eh".
 -- Não use colunas pre-existentes, apenas o que for criado na hora.
 
-SELECT 5+6 AS 'A', CONCAT('de') AS 'Trybe', CONCAT(2+8) AS 'eh';
+SELECT 5+6 AS 'A', CONCAT('de') AS 'Trybe', (2+8) AS 'eh';
