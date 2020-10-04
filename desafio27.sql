@@ -1,1 +1,1 @@
-#!/bin/bash
+DELETE FROM northwind.order_details
