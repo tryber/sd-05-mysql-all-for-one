@@ -1,3 +1,5 @@
+SELECT 5+6 AS "A", "de" AS "Trybe", 2 + 8 AS "eh";
+
 #Faça uma consulta que retorne três colunas. 
 #Na primeira coluna, exiba a soma de 5 + 6 
 #(essa soma deve ser realizada pelo SQL). 
