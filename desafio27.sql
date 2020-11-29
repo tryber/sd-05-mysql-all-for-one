@@ -1,1 +1,1 @@
-TRUNCATE northwind;
+TRUNCATE TABLE northwind.order_details;
